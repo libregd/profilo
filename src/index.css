@@ -1,14 +1,232 @@
-@import url("https://raw.githubusercontent.com/libregd/warehouse/main/create-react-app/reset.css");
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* @import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"; */
+
+html {
+  --primary-color: #354D71;
+  --primary-lighter-color: #F3F8FF;
+  --primary-normal-color: #587AAD;
+  --primary-light-color: #A4C0EA;
+  --secondary-light-color: #FFF6EB;
+  --secondary-color: #F98B0A;
+  --secondary-normal-color: #FFBD70;
+  --white-color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* footer */
+.footer {
+  margin-top: 3em;
+  text-align: center;
+  padding: 5em;
+  border-top: var(--primary-lighter-color) 1px solid;
 }
+
+.footer a {
+  color: var(--primary-light-color);
+
+}
+
+.footer a:hover {
+  color: var(--primary-normal-color);
+}
+
+/* header part */
+.navbar {
+  display: flex;
+
+  background-color: var(--primary-color);
+  list-style-type: none;
+}
+
+.navbar-brand {
+  width: 6rem;
+  margin: .5em;
+  margin-left: 2rem;
+}
+
+.navbar-menu {
+  display: flex;
+  justify-content: space-between;
+  margin: auto auto;
+  margin-right: 1rem;
+}
+
+.navbar-menu>a {
+  padding: 1em;
+  color: var(--secondary-light-color);
+  background-color: var(--primary-color);
+  border-bottom: 4px solid var(--primary-color);
+}
+
+.navbar-menu>a:hover {
+  background-color: var(--secondary-light-color);
+  color: var(--secondary-color);
+  border-bottom: 4px solid var(--secondary-color);
+}
+
+/* main part */
+
+.container {
+  margin: 1rem 1rem;
+  margin-bottom: 3em;
+}
+
+.part {
+  max-width: 960px;
+  margin: auto;
+}
+
+.part img {
+  width: 200px;
+}
+
+.part h1 {
+  font-weight: 700;
+  font-size: 2em;
+  color: var(--primary-color);
+  margin-top: 2em;
+}
+
+.row {
+
+  display: flex;
+  background-color: var(--primary-lighter-color);
+  padding: 2em;
+  border-radius: .5rem;
+  box-shadow: var(--primary-light-color) 0px 4px;
+  margin-top: 2em;
+
+}
+
+.row .col {
+  width: 100%;
+}
+
+.row .col:first-child {
+  margin: auto;
+  margin-left: 1rem;
+
+}
+
+.row .col:last-child {
+
+  text-align: center;
+}
+
+.row .title {
+  margin-bottom: 1em;
+}
+
+p {
+  color: var(--primary-normal-color);
+}
+
+.title {
+  font-size: 2em;
+  font-weight: 500;
+
+}
+
+.tag {
+  margin-bottom: 1rem;
+}
+
+.button {
+  padding: 0.5em 1.5em;
+  background-color: var(--secondary-color);
+  color: var(--secondary-light-color);
+  border-radius: .25em;
+}
+
+.button:hover {
+  background-color: var(--primary-normal-color);
+  color: var(--primary-lighter-color);
+  transition: .2s;
+}
+/* single illustration page */
+.piece {
+  /* background-color: azure; */
+  padding: 1em;
+  margin: 1em;
+  text-align: center;
+  color: var(--primary-normal-color);
+}
+
+.piece img {
+  width: 960px;
+}
+
+.piece p {
+  font-size: 1em;
+  margin: 1em;
+  line-height: 2em;
+}
+
+.article-title {
+  display: flex;
+  margin: auto;
+}
+
+.article-title .title {
+  margin-left: 1em;
+}
+
+.article-title .button {
+  margin-right: 2em;
+  margin-left: auto;
+}
+
+article {
+  margin-top: 2em;
+}
+article .des {
+  margin: 2em;
+  line-height: 2em;
+}
+/* logos */
+.rows-3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-auto-rows: 1fr;
+  grid-gap: 1.5em;
+  padding: 0;
+  margin-top: 2em;
+
+}
+
+.card {
+
+  background-color: var(--white-color);
+  box-shadow: var(--primary-light-color) 0px 4px;
+  text-align: center;
+  padding-bottom: 2em;
+  border: 2px solid var(--primary-light-color);
+  border-radius: 1em 1em 0em 0em;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 1em 1em 0em 0em;
+
+}
+.card p {
+  text-align: left;
+  margin: .5em 1em;
+}
+
+.card-title {
+  font-size: 1.5em;
+}
+.card-button {
+
+  padding: 0.5em 0em 0.2em 0em;
+  color: var(--primary-normal-color);
+  border-bottom: 2px solid var(--primary-normal-color);
+}
+.card-button:hover {
+  color: var(--secondary-color);
+  border-bottom: 2px solid var(--secondary-color);
+  transform: 1s ;
+
+}
+
+ 
