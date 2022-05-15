@@ -142,6 +142,7 @@ p {
   color: var(--primary-lighter-color);
   transition: .2s;
 }
+
 /* single illustration page */
 .piece {
   /* background-color: azure; */
@@ -178,10 +179,12 @@ p {
 article {
   margin-top: 2em;
 }
+
 article .des {
   margin: 2em;
   line-height: 2em;
 }
+
 /* logos */
 .rows-3 {
   display: grid;
@@ -208,13 +211,19 @@ article .des {
   border-radius: 1em 1em 0em 0em;
 
 }
+
 .card p {
   text-align: left;
   margin: .5em 1em;
+  cursor: context-menu
 }
 
 .card-title {
   font-size: 1.5em;
+}
+.card-title:hover {
+  color: var(--secondary-color);
+  transform: 1s;
 }
 .card-button {
 
@@ -222,11 +231,10 @@ article .des {
   color: var(--primary-normal-color);
   border-bottom: 2px solid var(--primary-normal-color);
 }
+
 .card-button:hover {
   color: var(--secondary-color);
   border-bottom: 2px solid var(--secondary-color);
-  transform: 1s ;
+  transform: 1s;
 
 }
-
- 

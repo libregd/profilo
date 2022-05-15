@@ -4,19 +4,17 @@ import { Link, useParams } from "react-router-dom";
 const SingleIllu = () => {
   const { id } = useParams();
   const index: number = data.findIndex((x) => x.id === id);
-  const { title, details,des } = data[index];
+  const { title, details, des } = data[index];
 
   return (
     <div className="container">
       <div className="part">
         <article>
           <div className="article-title">
-
             <p className="title">{title}</p>
             <Link to="/works" className="button">
               Back
             </Link>
-            
           </div>
           <p className="des">{des}</p>
           {details.map((x) => {

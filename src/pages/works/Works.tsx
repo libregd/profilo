@@ -3,9 +3,8 @@ import Logos from "./LogoItem";
 const Works = () => {
   return (
     <main className="container">
-
-        <Illustration />
-        <Logos />
+      <Illustration />
+      <Logos />
     </main>
   );
 };
