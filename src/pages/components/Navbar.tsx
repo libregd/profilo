@@ -1,10 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { default as logoSvg } from "../../images/logo.svg";
+import "../../index.css";
 const Navbar = () => {
+  let activeClassName = "active-link";
   return (
     <header>
-
       <nav className="navbar">
         <div className="navbar-brand">
           <Link to="/">
@@ -12,11 +14,24 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="navbar-menu">
-          <Link to="../Works">Works</Link>
-          <Link to="../About">About</Link>
+          <NavLink
+            to="../Works"
+            className={({ isActive }) =>
+              isActive ? activeClassName : undefined
+            }
+          >
+            Works
+          </NavLink>
+          <NavLink
+            to="../About"
+            className={({ isActive }) =>
+              isActive ? activeClassName : undefined
+            }
+          >
+            About
+          </NavLink>
         </div>
       </nav>
-
     </header>
   );
 };
