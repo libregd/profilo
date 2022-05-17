@@ -10,6 +10,10 @@ npm i -D react-router-dom
 
 [tutorial](https://www.npmjs.com/package/react-lazy-load-image-component)
 [I choose that](https://morioh.com/p/9b10ed9b4dbe)
+``` html
+// 3rd methods
+  <img src={banner} alt="" loading="lazy"/>
+```
 
 # NavLink to make a active status
 
