@@ -1,6 +1,8 @@
 import React from "react";
 import data from "./LogoData";
 import { Link, useParams } from "react-router-dom";
+import Image from "../components/Image";
+
 const SingleLogo = () => {
   const { id } = useParams();
   const index: number = data.findIndex((x) => x.id === id);
@@ -20,7 +22,7 @@ const SingleLogo = () => {
           {details.map((x) => {
             return (
               <div className="piece" key={x.id}>
-                <img src={x.img} alt="img"></img>
+                <Image src={x.img} alt="img" />
                 <p>{x.text}</p>
               </div>
             );

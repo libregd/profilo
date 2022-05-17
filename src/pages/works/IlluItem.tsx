@@ -1,5 +1,6 @@
 import Items from "./IllusData";
 import { Link } from "react-router-dom";
+
 const pagename = "illustrations/";
 const Illustration = () => {
   return (
@@ -15,7 +16,7 @@ const Illustration = () => {
               </Link>
             </div>
             <div className="col">
-              <img src={i.banner} alt="" />
+              <img src={i.banner} alt="banner" loading="lazy" />
             </div>
           </div>
         );

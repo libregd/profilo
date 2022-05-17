@@ -1,6 +1,7 @@
 import React from "react";
 import data from "./IllusData";
 import { Link, useParams } from "react-router-dom";
+import Image from "../components/Image";
 const SingleIllu = () => {
   const { id } = useParams();
   const index: number = data.findIndex((x) => x.id === id);
@@ -20,7 +21,7 @@ const SingleIllu = () => {
           {details.map((x) => {
             return (
               <div className="piece" key={x.id}>
-                <img src={x.img} alt="img"></img>
+                <Image src={x.img} alt="img" />
                 <p>{x.text}</p>
               </div>
             );

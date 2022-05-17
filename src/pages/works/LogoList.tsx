@@ -12,7 +12,7 @@ const LogoList = ({ id, title, banner, des }: Item) => {
   return (
     <Link to={`/logos/${id}`} key={id}>
       <div className="card">
-        <img src={banner} alt="" />
+        <img src={banner} alt="" loading="lazy"/>
 
         <p className="card-title">{title}</p>
         <p className="card-des">{des.substring(0, 80) + "..."}</p>
