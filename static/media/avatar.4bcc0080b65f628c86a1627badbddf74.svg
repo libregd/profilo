@@ -1,0 +1,11 @@
+<svg width="162" height="168" viewBox="0 0 162 168" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="73" cy="73" r="71" stroke="#354D71" stroke-width="4"/>
+<rect x="47" y="69" width="113" height="97" stroke="#354D71" stroke-width="4"/>
+<mask id="path-3-inside-1_44_85" fill="white">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M73 146C113.317 146 146 113.317 146 73C146 70.9798 145.918 68.9787 145.757 67H45V140.437C53.6224 144.021 63.0802 146 73 146Z"/>
+</mask>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M73 146C113.317 146 146 113.317 146 73C146 70.9798 145.918 68.9787 145.757 67H45V140.437C53.6224 144.021 63.0802 146 73 146Z" fill="#354D71"/>
+<path d="M145.757 67L149.744 66.6757L149.445 63H145.757V67ZM45 67V63H41V67H45ZM45 140.437H41V143.106L43.4647 144.131L45 140.437ZM142 73C142 111.108 111.108 142 73 142V150C115.526 150 150 115.526 150 73H142ZM141.77 67.3243C141.922 69.1953 142 71.0882 142 73H150C150 70.8714 149.914 68.7622 149.744 66.6757L141.77 67.3243ZM45 71H145.757V63L45 63V71ZM49 140.437V67H41V140.437H49ZM73 142C63.6163 142 54.6798 140.129 46.5353 136.744L43.4647 144.131C52.5651 147.914 62.544 150 73 150V142Z" fill="#354D71" mask="url(#path-3-inside-1_44_85)"/>
+<line x1="89" y1="88" x2="89" y2="97" stroke="#F3F8FF" stroke-width="4" stroke-linecap="round"/>
+<line x1="108" y1="88" x2="108" y2="97" stroke="#F3F8FF" stroke-width="4" stroke-linecap="round"/>
+</svg>
