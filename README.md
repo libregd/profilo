@@ -21,3 +21,8 @@ npm i -D react-router-dom
 
 # react spring to svg
 [official- demo](https://react-spring.io/hooks/use-spring#demos)
+
+# add modal for about page
+- [REACT-MODAL](https://github.com/reactjs/react-modal)
+- [Modal in React application | How to build modal from scratch (HOOKS, REFS, TYPESCRIPT)](https://www.youtube.com/watch?v=7bn5ykv5bjc)
+
