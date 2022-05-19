@@ -15,6 +15,14 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="navbar-menu">
+        <NavLink
+            to="/"
+            className={({ isActive }) =>
+              isActive ? activeClassName : undefined
+            }
+          >
+            Home
+          </NavLink>
           <NavLink
             to="../Works"
             className={({ isActive }) =>

@@ -26,3 +26,8 @@ npm i -D react-router-dom
 - [REACT-MODAL](https://github.com/reactjs/react-modal)
 - [Modal in React application | How to build modal from scratch (HOOKS, REFS, TYPESCRIPT)](https://www.youtube.com/watch?v=7bn5ykv5bjc)
 
+# iframe in react
+[BEST-PRACTICES-REACT-IFRAMES](https://blog.logrocket.com/best-practices-react-iframes/)
+
+[iframe - mdn](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/iframe)
+
