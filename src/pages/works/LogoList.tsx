@@ -20,6 +20,7 @@ const LogoList = ({ id, title, banner, des }: Item) => {
           <span className="card-button">Details</span>
         </p>
       </div>
+      
     </Link>
   );
 };

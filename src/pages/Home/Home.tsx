@@ -1,15 +1,14 @@
 import ToDoList from "./ToDoList";
+import PartTitle from "../components/PartTitle/PartTitle";
 const Home = () => {
   return (
     <>
       <main className="container">
-      
-      <div className="part">
-      <h1 className="part-title">test</h1>
-      <ToDoList />
-      </div>
+        <div className="part">
+          <PartTitle title="loading" />
+          <ToDoList />
+        </div>
       </main>
-      
     </>
   );
 };

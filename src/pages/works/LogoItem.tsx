@@ -2,6 +2,7 @@ import React from "react";
 import Items from "./LogoData";
 import LogoList from "./LogoList";
 
+
 const Logos = () => {
   return (
     <div className="part">

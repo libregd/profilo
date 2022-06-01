@@ -16,7 +16,7 @@ const Illustration = () => {
               </Link>
             </div>
             <div className="col">
-              <img src={i.banner} alt="banner" loading="lazy" />
+              <img className="img" src={i.banner} alt="banner" loading="lazy" />
             </div>
           </div>
         );
