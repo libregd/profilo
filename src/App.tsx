@@ -10,6 +10,7 @@ import Navbar from "./pages/components/Navbar";
 import Footer from "./pages/components/Footer";
 import SingleIllu from "./pages/works/SingleIllu";
 import SingleLogo from "./pages/works/SingleLogo";
+import Practices from "./pages/Practices/Practices";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/works" element={<Works />} />
+        <Route path="/practices" element={<Practices />} />
         <Route path="/about" element={<About />} />
         <Route path="/illustrations/:id" element={<SingleIllu />} />
         <Route path="/logos/:id" element={<SingleLogo />} />

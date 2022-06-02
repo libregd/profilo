@@ -1,0 +1,99 @@
+.mp-box {
+    margin-top: 2rem;
+    display: grid;
+    grid-gap: 2em;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+.mp-input{
+text-align: left;
+line-height: 1.5rem;
+padding: 1rem;
+min-height: 30rem;
+border: 2px solid var(--primary-lighter-color);
+border-radius: 0.25em;
+}
+.mp-input:focus {
+    outline: none !important;
+    border: 2px solid var(--primary-light-color);
+}
+.mp-result {
+text-align: left;
+margin-top: 0.5rem;
+}
+.mp-result h1 {
+    margin-top: 0em;
+    font-weight: 900;
+    font-size: 3em;
+    color: var(--primary-color);
+    margin-bottom: 0.3em;
+}
+.mp-result h2 {
+    font-weight: 900;
+    font-size: 2.4em;
+    color: var(--primary-color);
+    margin-bottom: 0.3em;
+}
+.mp-result h3 {
+    font-weight: 700;
+    font-size: 2em;
+    color: var(--primary-color);
+    margin-bottom: 0.3em;
+}
+.mp-result h4 {
+    font-weight: 700;
+    font-size: 1.4em;
+    color: var(--primary-color);
+    margin-bottom: 0.3em;
+}
+.mp-result h5 {
+    font-weight: 700;
+    font-size: 1.2em;
+    color: var(--primary-color);
+    margin-bottom: 0.3em;
+}
+.mp-result h6 {
+    font-weight: 700;
+    font-size: 1em;
+    color: var(--primary-color);
+}
+.mp-result p {
+    font-weight: 500;
+    font-size: 1em;
+    color: var(--primary-normal-color);
+    word-break: break-word;
+    width: 100%;
+    line-height: 1.4rem;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.mp-result p a{
+    color: var(--primary-color);
+    font-weight: 500;
+    text-decoration: underline;
+}
+.mp-result p a:hover{
+    color: var(--secondary-color);
+}
+.mp-result blockquote {
+    background-color: var(--secondary-light-color);
+    border-radius: 0.25em;
+    padding: .25em .5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+
+}
+.mp-result p code {
+    background-color: var(--primary-lighter-color);
+    border-radius: 0.25em;
+    padding: .25em .5em;
+    margin: 0.5em;
+}
+.mp-result pre code {
+    background-color: var(--primary-light-color);
+    border-radius: 0.25em;
+    padding: .25em .5em;
+    margin-top: 0.5em;
+
+    color: var(--white-color);
+}

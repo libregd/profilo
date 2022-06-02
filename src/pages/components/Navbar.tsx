@@ -32,6 +32,14 @@ const Navbar = () => {
             Works
           </NavLink>
           <NavLink
+            to="../Practices"
+            className={({ isActive }) =>
+              isActive ? activeClassName : undefined
+            }
+          >
+            Practices
+          </NavLink>
+          <NavLink
             to="../About"
             className={({ isActive }) =>
               isActive ? activeClassName : undefined
