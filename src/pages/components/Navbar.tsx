@@ -1,7 +1,7 @@
 
 import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
-import { default as logoSvg } from "../../images/logo.svg";
+import { default as logoSvg } from "../../images/logo.png";
 import "../../index.css";
 const Navbar = () => {
 
