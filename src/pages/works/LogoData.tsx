@@ -34,6 +34,23 @@ const Items: Item[] = [
       },
     ],
   },
-  
+  {
+    id: "2",
+    title: "Lin Family",
+    des: "Skin care brand, customer prefer black and white ash, minimalist style aesthetics as well.",
+    banner: "/profilo/logos/logo2.png",
+    details: [
+      {
+        id: 1,
+        text: "This is a brand that focuses on technology skin care,Most of their customers have a lot of skincare knowledge. The founders preferred simple and effective skin care product development ideas.",
+        img: "/profilo/logos/logo2/1.png",
+      },
+      {
+        id: 2,
+        text: "Beauty is not just about skin ",
+        img: "/profilo/logos/logo2/2.png",
+      }
+    ],
+  },
 ];
 export default Items;

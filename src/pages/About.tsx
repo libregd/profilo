@@ -43,6 +43,16 @@ const About = () => {
     "Desired Position: Junior Web Front-End Engineer",
     "Desired city: Remote or a city that can offer a suitable offer in the world.",
   ];
+  const InfoAboutMe3: string[] = [
+    "UI：Figma > Adobe XD > Sketch",
+    "Vector Graph：Affinity Designer > Vecornator ",
+    "Bitmap Edit: Affinity Photo > Adobe PhotoShop",
+  ];
+  const InfoAboutMe4: string[] = [
+    "",
+    "Vector Graph：Affinity Designer > Vecornator ",
+    "Bitmap Edit: Affinity Photo > Adobe PhotoShop",
+  ];
   // 头像部分
   const Avatar = () => {
     return (
@@ -126,6 +136,14 @@ const About = () => {
       <div className="part">
       <PartTitle title="About me" />
       <ContentText texts={InfoAboutMe2} />
+      </div>
+      <div className="part">
+      <PartTitle title="Design Softwave Preference " />
+      <ContentText texts={InfoAboutMe3} />
+      </div>
+      <div className="part">
+      <PartTitle title="Project Experience" />
+      <ContentText texts={InfoAboutMe4} />
       </div>
     </main>
   );
